@@ -1,0 +1,28 @@
+{
+  "name": "react-svg-quadrants",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "homepage": "https://thisseasx.github.io/react-svg-quadrants/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url=https://thisseasx.github.io/react-svg-quadrants/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/styles": "^4.9.6",
+    "lodash": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "latest",
+    "parcel-plugin-clean-dist": "latest"
+  },
+  "description": ""
+}
